@@ -2,16 +2,24 @@
 
   displayName: 'VotesBlock',
 
-  render: function(){
+  getDefaultProps: function() {
+    return { question: "Вопрос ни о чём" }
+  },
 
-    var answersCode=this.props.info.answers.map( v =>
-        React.DOM.div({key:v.code,className:'Answer'},
-          React.DOM.span({className:'Count'},v.count),
-          React.DOM.span({className:'Text'},v.text),
-        )
-      );
+  render: function() {
+
+    let answersCode=[];
+    for ( var a=0; a<this.props.answers.length; a++ ) {
+      var answer=this.props.answers[a];
+      var answerCode=        
+        React.DOM.div({key:answer.code,className:'Answer'},
+          React.DOM.span({className:'Count'},answer.count),
+          React.DOM.span({className:'Text'},answer.text),
+        );
+      answersCode.push(answerCode);
+    }
     return React.DOM.div( {className:'VotesBlock'}, 
-      React.DOM.div( {className:'Question'}, this.props.info.question ),
+      React.DOM.div( {className:'Question'}, this.props.question ),
       React.DOM.div( {className:'Answers'}, answersCode ),
     );
   },
