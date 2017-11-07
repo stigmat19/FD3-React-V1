@@ -3,7 +3,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var VotesBlock = require('./VotesBlock');
+var VotesBlock = require('./components/VotesBlock');
 
 var questionText='Как вы относитесь к программированию?';
 var answersArr=[ 
