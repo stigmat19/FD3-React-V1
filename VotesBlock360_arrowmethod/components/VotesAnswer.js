@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 
-require('./VotesAnswer.css');
+import './VotesAnswer.css';
 
 class  VotesAnswer extends React.Component {
 

@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 
-require('./VotesBlock.css');
+import './VotesBlock.css';
 
 import VotesQuestion from './VotesQuestion';
 import VotesAnswer from './VotesAnswer';

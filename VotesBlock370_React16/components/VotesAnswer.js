@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import DOM from 'react-dom-factories';
 
-require('./VotesAnswer.css');
+import './VotesAnswer.css';
 
 class  VotesAnswer extends React.Component {
 

@@ -2,7 +2,7 @@
 import PropTypes from 'prop-types';
 import DOM from 'react-dom-factories';
 
-require('./VotesBlock.css');
+import './VotesBlock.css';
 
 import VotesQuestion from './VotesQuestion';
 import VotesAnswer from './VotesAnswer';

@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import PropTypes from 'prop-types';
 
-require('./VotesBlock.css');
+import './VotesBlock.css';
 
 import VotesQuestion from './VotesQuestion';
 import VotesAnswer from './VotesAnswer';

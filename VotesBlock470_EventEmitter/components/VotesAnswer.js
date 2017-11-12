@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import {voteEvents} from './events';
 
-require('./VotesAnswer.css');
+import './VotesAnswer.css';
 
 class  VotesAnswer extends React.Component {
 

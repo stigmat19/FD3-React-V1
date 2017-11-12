@@ -5,7 +5,7 @@ import VotesQuestion from './VotesQuestion';
 import VotesAnswer from './VotesAnswer';
 import {voteEvents} from './events';
 
-require('./VotesBlock.css');
+import './VotesBlock.css';
 
 class VotesBlock extends React.Component {
 

@@ -1,7 +1,6 @@
 ﻿import React from 'react';
 import PropTypes from 'prop-types';
 
-//require('./VotesAnswer.css');
 import './VotesAnswer.css';
 
 class  VotesAnswer extends React.Component {

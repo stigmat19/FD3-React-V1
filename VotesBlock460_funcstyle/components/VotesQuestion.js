@@ -1,7 +1,7 @@
 ﻿import React from 'react';
 import PropTypes from 'prop-types';
 
-require('./VotesQuestion.css');
+import './VotesQuestion.css';
 
 const VotesQuestion = ( props ) => {
   return <div className='VotesQuestion'>{props.question}</div>;
@@ -17,7 +17,7 @@ export default VotesQuestion;
 /*
 import React from 'react';
 
-require('./VotesQuestion.css');
+import './VotesQuestion.css';
 
 export default ( props ) => {
   return <div className='VotesQuestion'>{props.question}</div>;
@@ -28,7 +28,7 @@ export default ( props ) => {
 /*
 import React from 'react';
 
-require('./VotesQuestion.css');
+import './VotesQuestion.css';
 
 export default ( props ) => <div className='VotesQuestion'>{props.question}</div>;
 */

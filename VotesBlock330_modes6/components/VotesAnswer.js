@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 
-require('./VotesAnswer.css');
+import './VotesAnswer.css';
 
 var VotesAnswer = React.createClass({
 
