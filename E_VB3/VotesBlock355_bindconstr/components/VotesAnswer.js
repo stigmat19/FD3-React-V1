@@ -2,7 +2,7 @@
 
 import './VotesAnswer.css';
 
-class  VotesAnswer extends React.Component {
+class VotesAnswer extends React.Component {
 
   static propTypes = {
     code: React.PropTypes.number.isRequired,
