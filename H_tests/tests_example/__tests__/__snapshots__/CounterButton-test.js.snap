@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`работа CounterButton 1`] = `
+<input
+  onClick={[Function]}
+  type="button"
+  value="нажатий: 0, степень двойки: 1"
+/>
+`;
+
+exports[`работа CounterButton 2`] = `
+<input
+  onClick={[Function]}
+  type="button"
+  value="нажатий: 1, степень двойки: 2"
+/>
+`;
+
+exports[`работа CounterButton 3`] = `
+<input
+  onClick={[Function]}
+  type="button"
+  value="нажатий: 2, степень двойки: 4"
+/>
+`;

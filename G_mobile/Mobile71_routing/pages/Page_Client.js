@@ -4,10 +4,10 @@ import MobileClientInfo from '../components/MobileClientInfo';
 
 import appData from '../appData';
 
-class Page_Client extends React.Component {
+class Page_Client extends React.PureComponent {
           
   render() {
-    console.warn('this.props.match', this.props.match);
+
     // раз написано <Route path="/client/:clid" component={Page_Client} />
     // значит Page_Client получит то что в УРЛе после /client/ под именем props.match.params.clid в виде строки
     let clientId=parseInt(this.props.match.params.clid);

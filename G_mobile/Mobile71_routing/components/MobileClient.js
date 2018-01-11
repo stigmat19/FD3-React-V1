@@ -19,7 +19,7 @@ class MobileClient extends React.PureComponent {
     return (
       <div className='MobileClient'>
         <span className='MobileClientBalance'>{this.props.info.balance}</span>
-        <NavLink to={"/clients/"+this.props.info.id} className="MobileClientFIO">{this.props.info.fio}</NavLink>
+        <NavLink to={"/client/"+this.props.info.id} className="MobileClientFIO">{this.props.info.fio}</NavLink>
       </div>
     );
 
